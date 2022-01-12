@@ -798,6 +798,7 @@ void MemberList::writeDocumentationPage(OutputList &ol,
       }
       else
       {
+        /*
         ol.writeString("<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n"
             "  <tr>\n"
             "   <td valign=\"top\">\n");
@@ -806,6 +807,7 @@ void MemberList::writeDocumentationPage(OutputList &ol,
 
         ol.writeString("   </td>\n");
         ol.writeString("   <td valign=\"top\" class=\"mempage\">\n");
+        */
 
         md->writeDocumentation(this,count++,overloadCount,ol,scopeName,container_d,m_container==MemberListContainer::Group);
 
